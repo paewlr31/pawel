@@ -8,7 +8,7 @@ export default function AGHUniversity() {
       title: "Java Labs",
       description:
         "This repository documents my adventure with Java during my studies. It includes various projects and exercises covering core Java concepts, OOP, multithreading, and more.",
-      github: "https://github.com/paewlr31/java-labs",
+      github: "https://github.com/paewlr31/java_labolatories",
       date: "2024",
       inProgress: false,
       technologies: ["Java", "OOP", "Multithreading", "Collections"],
@@ -17,7 +17,7 @@ export default function AGHUniversity() {
       title: "Machine Learning",
       description:
         "This repository contains my solutions and notes from machine learning labs. Each .ipynb or .py file corresponds to a single lab and includes practical implementations, reflections, and conclusions.",
-      github: "https://github.com/paewlr31/machine-learning",
+      github: "https://github.com/paewlr31/machine_learning",
       date: "2024",
       inProgress: false,
       technologies: ["Python", "NumPy", "Pandas", "Scikit-Learn"],
