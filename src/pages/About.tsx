@@ -11,6 +11,7 @@ import {
 } from "react-icons/fa";
 
 import SEO from "../components/SEO";   // <--- DODANE
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
@@ -123,9 +124,9 @@ export default function About() {
                 These hobbies taught me discipline, creative problem-solving, and how to stay calm when everything goes wrong — skills that come in handy when a sensor stops responding at 2 AM.
                 <br /><br />
                 Curious about my current anime season picks or travel photos? Just drop me a message — happy to share!{' '}
-                <a href="/contact" className="text-blue-600 font-medium hover:underline">
-                  Contact Me
-                </a>
+                <Link to="/contact" className="text-blue-600 font-medium hover:underline">
+  Contact Me
+</Link>
               </p>
             </div>
 
