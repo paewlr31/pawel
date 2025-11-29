@@ -1,4 +1,6 @@
+// src/pages/Projects.tsx
 import ProjectCard from "../components/ProjectCard";
+import SEO from "../components/SEO";   // DODANE
 
 export default function Projects() {
   const projects = [
@@ -63,42 +65,49 @@ export default function Projects() {
   ];
 
   return (
-    <section className="min-h-screen bg-gray-50 py-20 px-6">
-      <div className="max-w-6xl mx-auto">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 text-center mb-16">
-          My Projects
-        </h1>
-        <div className="mt-8 text-center mb-16">
+    <>
+      {/* SEO – teraz strona z projektami wygląda MEGA profesjonalnie */}
+      <SEO
+        title="Projects – Paweł Rycerz"
+        description="IoT sensors, full-stack web apps (mathcraft.pl), Python automation, distributed systems, AI bots & more – all open source on GitHub"
+      />
+
+      <section className="min-h-screen bg-gray-50 py-20 px-6">
+        <div className="max-w-6xl mx-auto">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 text-center mb-16">
+            My Projects
+          </h1>
+
+          <div className="mt-8 text-center mb-16">
             <p className="text-lg text-gray-700">
-                Interested in my projects or code? Check them out on{" "}
-                <a
+              Interested in my projects or code? Check them out on{" "}
+              <a
                 href="https://github.com/paewlr31"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 font-medium hover:underline"
-                >
+              >
                 GitHub
-                </a>
-                !
+              </a>
+              !
             </p>
-        </div>
+          </div>
 
-        <div className="grid gap-10 text-gray-700 md:grid-cols-2">
-          {projects.map((proj) => (
-            <ProjectCard
-              key={proj.title}
-              title={proj.title}
-            
-              technologies={proj.technologies}
-              description={proj.description}
-              githubLink={proj.githubLink}
-              date={proj.date}
-              inProgress={proj.inProgress}
-            />
-          ))}
+          <div className="grid gap-10 text-gray-700 md:grid-cols-2">
+            {projects.map((proj) => (
+              <ProjectCard
+                key={proj.title}
+                title={proj.title}
+                technologies={proj.technologies}
+                description={proj.description}
+                githubLink={proj.githubLink}
+                date={proj.date}
+                inProgress={proj.inProgress}
+              />
+            ))}
+          </div>
         </div>
-        
-      </div>
-    </section>
+      </section>
+    </>
   );
 }

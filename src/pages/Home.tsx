@@ -1,10 +1,13 @@
 // Home.tsx (lub Home.jsx)
 import profilePic from "../assets/profile.png";   // zamień na swoje zdjęcie
-
+import SEO from "../components/SEO";
 export default function Home() {
   return (
     <>
-  
+   <SEO 
+        title="Paweł Adam Rycerz – Portfolio Dev"
+        description="IoT Developer | Embedded C++ | React + TypeScript | AGH University Student | Kraków, Poland"
+      />
 
       {/* Główna sekcja Hero */}
       <section className="min-h-screen flex flex-col items-center justify-center bg-gray-50 px-6">
