@@ -119,11 +119,11 @@ export default function About() {
                 <FaPlaneDeparture />
               </div>
               <p className="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto md:mx-0">
-                Outside of soldering and coding, I’m a huge anime & light novel fan (currently deep into isekai and sci-fi), 
+                Outside of soldering and coding, I’m a fun of history books, cakes and market stocks.
                 I write my own short stories from time to time, and I’m always planning the next solo backpacking adventure — so far Spain, Austria and Greece have been my favorites. 
                 These hobbies taught me discipline, creative problem-solving, and how to stay calm when everything goes wrong — skills that come in handy when a sensor stops responding at 2 AM.
                 <br /><br />
-                Curious about my current anime season picks or travel photos? Just drop me a message — happy to share!{' '}
+                Just drop me a message — happy to share!{' '}
                 <Link to="/contact" className="text-blue-600 font-medium hover:underline">
   Contact Me
 </Link>
