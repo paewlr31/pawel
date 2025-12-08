@@ -123,7 +123,7 @@ export default function About() {
                 I write my own short stories from time to time, and I’m always planning the next solo backpacking adventure — so far Spain, Austria and Greece have been my favorites. 
                 These hobbies taught me discipline, creative problem-solving, and how to stay calm when everything goes wrong — skills that come in handy when a sensor stops responding at 2 AM.
                 <br /><br />
-                Just drop me a message — happy to share!{' '}
+                If you want to, just drop me a message — happy to share!{' '}
                 <Link to="/contact" className="text-blue-600 font-medium hover:underline">
   Contact Me
 </Link>
