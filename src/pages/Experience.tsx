@@ -5,7 +5,7 @@ export default function Experience() {
   const experiences = [
     {
       title: "Intern – Information Technology Department",
-      company: "Wyższa Szkoła Ekonomii i Informatyki w Krakowie",
+      company: "Wyższa Szkoła Ekonomii i Informatyki w Krakowie (since 1st of April 2026 called Uniwersytet DSW Ideis)",
       location: "Cracow, Małopolskie, Poland",
       type: "On-site · Full-time",
       date: "Jan 2026 – Mar 2026",
