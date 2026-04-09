@@ -11,6 +11,7 @@ export default function Navbar() {
     { to: "/about", label: "About Me & Skills" },
     { to: "/projects", label: "Projects" },
     { to: "/education", label: "Education" },
+    { to: "/experience", label: "Experience" }, 
     { to: "/agh-university", label: "AGH University" },
     { to: "/contact", label: "Contact" },
   ];

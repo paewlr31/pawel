@@ -11,7 +11,7 @@ export default function Projects() {
       description: "A sensor for monitoring food storage conditions (temperature, humidity, pressure).",
       githubLink: "https://gitlab.com/3_muszkieterow",
       date: "2025",
-      inProgress: true,
+      inProgress: false,
     },
     {
       title: "mathcraft.pl",

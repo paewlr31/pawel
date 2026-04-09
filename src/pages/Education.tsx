@@ -4,13 +4,7 @@ import SEO from "../components/SEO";   // DODANE
 
 export default function Education() {
   const schools = [
-    {
-      title: "VI Liceum Ogólnokształcące im. Adama Mickiewicza w Krakowie",
-      date: "Wrzesień 2019 – Maj 2023",
-      img: "/images/mickiewicz.png",
-      link: "https://vilo.krakow.pl/",
-    },
-    {
+      {
       title: "Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie",
       subtitle: "AGH University of Science and Technology",
       course: "Informatyka i Systemy Inteligentne (I stopień, inż.)",
@@ -19,6 +13,13 @@ export default function Education() {
       inProgress: true,
       link: "https://www.agh.edu.pl",
     },
+    {
+      title: "VI Liceum Ogólnokształcące im. Adama Mickiewicza w Krakowie",
+      date: "Wrzesień 2019 – Maj 2023",
+      img: "/images/mickiewicz.png",
+      link: "https://vilo.krakow.pl/",
+    },
+  
   ];
 
   return (

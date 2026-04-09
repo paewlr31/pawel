@@ -4,6 +4,16 @@ import SEO from "../components/SEO";   // DODANE
 
 export default function AGHUniversity() {
   const labs = [
+    
+    {
+      title: "Digital Image Processing",
+      description:
+        "A project showcasing practical skills in digital image processing using Python and OpenCV. It includes image enhancement, filtering, segmentation, feature extraction, and various transformation techniques, all developed and tested in Google Colab.",
+      github: "https://github.com/paewlr31/Digital-Image-Processing",
+      date: "2025",
+      inProgress: false,
+      technologies: ["Python", "OpenCV", "NumPy", "Google Colab"],
+    },
     {
       title: "Java Labs",
       description:
@@ -21,7 +31,7 @@ export default function AGHUniversity() {
       date: "2024",
       inProgress: false,
       technologies: ["Python", "NumPy", "Pandas", "Scikit-Learn"],
-    },
+    }
   ];
 
   return (
