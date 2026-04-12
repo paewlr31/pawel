@@ -4,6 +4,15 @@ import SEO from "../components/SEO";   // DODANE
 
 export default function Projects() {
   const projects = [
+     {
+      title: "BMW Price Prediction",
+      type: "Machine Learning",
+      technologies: ["Python", "Scikit-Learn", "XGBoost", "TensorFlow/Keras", "Pandas"],
+      description: "End-to-end machine learning project for predicting used BMW prices, featuring data preprocessing, model comparison (Random Forest, XGBoost, Neural Networks), and hyperparameter optimization.",
+      githubLink: "https://github.com/paewlr31/bmw-price-prediction",
+      date: "2025",
+      inProgress: false,
+    },
     {
       title: "IoT Food Sensor",
       type: "Internet of Things",

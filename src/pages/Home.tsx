@@ -63,12 +63,12 @@ export default function Home() {
 
 
           {/* Zdjęcie profilowe */}
-          <div className="mt-16 max-w-lg mx-auto">
+          <div className="mt-16 w-48 md:w-56 mx-auto">
             <div className="overflow-hidden rounded-2xl border-8 border-white shadow-2xl">
               <img
                 src={profilePic}
                 alt="Paweł Rycerz"
-                className="w-full h-full object-cover"
+                className="w-full object-cover"
               />
             </div>
           </div>
