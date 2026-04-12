@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.pawelrycerz.pl"
+        }
+      ],
+      "destination": "https://pawelrycerz.pl/$1",
+      "permanent": true
+    }
+  ]
+}
