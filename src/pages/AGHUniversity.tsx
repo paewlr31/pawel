@@ -4,7 +4,15 @@ import SEO from "../components/SEO";   // DODANE
 
 export default function AGHUniversity() {
   const labs = [
-    
+    {
+      title: "Deep & Graph Neural Networks",
+      description:
+        "A collection of four lab assignments exploring deep and graph neural network optimization. Covers tabular data (XGBoost, random forests, MLPs), image data (CNNs, transfer learning, augmentation), sequential data (RNN, LSTM, GRU, BERT), and graph data (GNNs — node/graph classification, anomaly detection).",
+      github: "https://github.com/paewlr31/deepNeuralNetworksAndGraphNeuralNetworks-/tree/main",
+      date: "2026",
+      inProgress: true,
+      technologies: ["Python", "PyTorch", "TensorFlow", "scikit-learn", "XGBoost", "PyTorch Geometric", "Hugging Face Transformers", "Jupyter Notebook"],
+    },
     {
       title: "Digital Image Processing",
       description:
